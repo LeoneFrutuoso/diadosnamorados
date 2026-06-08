@@ -12,7 +12,7 @@
         
         formulario.addEventListener('submit', (evento) => {
             evento.preventDefault(); // Evita que a página recarregue
-            
+            const inicio = document.getElementById('fotos').value
             const nome = document.getElementById('nome').value;
             const email = document.getElementById('email').value;
             
