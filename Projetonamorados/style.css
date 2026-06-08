@@ -1,0 +1,83 @@
+body {
+    background-image: url('fundo-casal.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: #4a4a4a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent; 
+    color: #ffffff;
+    text-align: center;
+    padding: 120px 20px; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.secao {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.bg-branco {
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #d63447;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.bloco-texto {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #d63447;
+    border-radius: 8px;
+}
+
+.galeria {
+    text-align: center;
+}
+
+.galeria img {
+    width: 30%;
+    margin: 1%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carta {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #d63447;
+    font-weight: bold;
+}
+
+.foto-linha {
+    width: 50%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 10px 0;
+}
