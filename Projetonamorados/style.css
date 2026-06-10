@@ -25,22 +25,24 @@ header h1 {
 .secao {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 40px 10px;
 }
 
 .bg-branco {
-    background-color: #ffffff;
+    background-color: hsl(300, 25%, 98%);
 }
 
 h2 {
     text-align: center;
-    color: #d63447;
+    color: #1cd03d;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: -5px;
+
+    height: 90px;
 }
 
 .bloco-texto {
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(244, 226, 238, 0.978); 
     padding: 20px;
     margin-bottom: 20px;
     border-left: 5px solid #d63447;
@@ -49,12 +51,14 @@ h2 {
 
 .galeria {
     text-align: center;
+    
 }
 
 .galeria img {
+    background-color: rgb(221, 105, 42);
     width: 20%;
-    margin: 1%;
-    height: 100px;
+     margin: 0%;
+    height: 210px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -69,7 +73,7 @@ h2 {
 footer {
     text-align: center;
     padding: 40px;
-    color: #d63447;
+    color: #1cd03d;
     font-weight: bold;
 }
 
@@ -80,3 +84,27 @@ footer {
     border-radius: 6px;
     margin: 10px 0;
 }
+
+.container-fotos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.foto-linha {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;}
+
+
+
+
+
+
+
+
+
+
+
+
