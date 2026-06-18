@@ -1,6 +1,7 @@
 body {
-    background-image: url('16.jpg'); 
-    background-size: 50% ; 
+    background-image: url('7.jpg'); 
+     background-position: center center;
+     background-size: 100% ; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     color: #4a4a4a;
